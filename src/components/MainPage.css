@@ -1,0 +1,51 @@
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+h2 {
+  text-align: center;
+  
+}
+
+.heading-text {
+  margin: 30px 0 50px 0;
+}
+
+.pageNumbers {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.pageNumbers li.active{
+  background-color: grey;
+  color:black;
+}
+
+.pageNumbers li {
+  padding: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.pageNumbers li button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.pageNumbers li button:hover {
+  background-color: white;
+  color: black;
+}
+
+.pageNumbers li button:focus {
+  outline: none;
+}
+
+.pageNumbers span {
+  font-size: 13px;
+}
